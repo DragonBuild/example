@@ -1,0 +1,18 @@
+name: example
+icmd: sbreload
+id: example
+depends: mobilesubstrate
+version: 0.1.0
+architecture: iphoneos-arm
+description: Example Project for dragon
+author: _kritanta
+section: Tweaks
+
+example:
+  type: tweak
+  filter:
+    executables:
+      - SpringBoard
+  files:
+    - Tweak.x
+  
